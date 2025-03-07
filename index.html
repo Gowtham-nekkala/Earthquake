@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthquakes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="title">EARTHQUAKES</div>
+    <div class="header">
+        <header>
+            <center>An earthquake is a violent and abrupt shaking of the ground, caused by movement between tectonic
+                plates
+                along a fault line in the earth's crust.<br>"Put the cursor on the images to create the Earthquake."
+            </center>
+        </header>
+    </div>
+    <div class="container">
+        <div class="image-container">
+            <img src="earthquake.jpg" alt="Earthquake Building">
+        </div>
+        <div class="box">
+            <p>Enter value of the earthquake:</p>
+            <form id="earthquakeForm">
+                <label><input type="radio" name="value" value="1"> 1</label><br>
+                <label><input type="radio" name="value" value="2"> 2</label><br>
+                <label><input type="radio" name="value" value="3"> 3</label><br>
+                <label><input type="radio" name="value" value="4"> 4</label><br>
+                <label><input type="radio" name="value" value="5"> 5</label><br>
+                <label><input type="radio" name="value" value="6"> 6</label><br>
+                <label><input type="radio" name="value" value="7"> 7</label><br>
+                <label><input type="radio" name="value" value="8"> 8</label><br>
+                <label><input type="radio" name="value" value="9"> 9</label><br>
+                <label><input type="radio" name="value" value="10">10</label><br>
+                <label><input type="radio" name="value" value="11">11</label><br>
+            </form>
+            <button class="button" onclick="updateResult()">Enter</button>
+            <p class="result" id="result">Minor</p>
+        </div>
+        <div class="image-container1">
+            <img src="Safety.jpg" alt="Safety">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
